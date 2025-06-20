@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+.sidebar {
+  width: 200px;
+  background-color: #004d40;
+  color: white;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.sidebar h2 {
+  margin-top: 0;
+}
+.sidebar nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 10px 0;
+}
+main {
+  padding: 30px;
+  flex-grow: 1;
+  background: #f9f9f9;
+}
+form input, form textarea {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+form button {
+  background: #00796b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+}
